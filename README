@@ -1,0 +1,5 @@
+Provides read-only access to the information_schema.* views/tables in Postgresql
+
+Requires dm-core
+
+Be sure to set up a connection to the database you want to use (or use in a project)
