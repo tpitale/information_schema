@@ -1,7 +1,8 @@
-# http://www.postgresql.org/docs/8.3/static/infoschema-administrable-role-authorizations.html
+# http://www.postgresql.org/docs/8.3/static/infoschema-applicable-roles.html
+
 # View
 
-class AdministrableRoleAuthorization
+class ApplicableRole
   include DataMapper::Resource
   
   property :grantee, SqlIdentifier, :key => true

@@ -12,6 +12,9 @@ adapter.resource_naming_convention = NamingConventions::Resource::UnderscoredAnd
 
 DataObjects::Postgres.logger = DataObjects::Logger.new(STDOUT, 0)
 
-require 'versions/8_3/attribute'
+require 'versions/8_3/information_schema_catalog_name'
 require 'versions/8_3/administrable_role_authorization'
-require 'versions/8_3/check_constraint'
+require 'versions/8_3/applicable_role'
+require 'versions/8_3/attribute'
+
+# require 'versions/8_3/check_constraint'
