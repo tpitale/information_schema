@@ -1,4 +1,5 @@
 # http://www.postgresql.org/docs/8.3/static/infoschema-constraint-table-usage.html
+
 # View
 
 class ConstraintTableUsage
